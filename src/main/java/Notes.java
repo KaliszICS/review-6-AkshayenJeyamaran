@@ -20,7 +20,7 @@ class Notes {
 
 	public static String addS(String word) {
 		String newWord;
-		newWord = word + "s";
+		newWord = word.substring(1);
 		return newWord;
 	}
 
